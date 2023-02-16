@@ -5,8 +5,9 @@ const Ejemplo = () => {
 
   return (
     <div>
-      <p>Has hecho click {count} veces</p>
-      <button onClick={() => setCount(count + 1)}>Click me</button>
+      <p>¿Conoces las buenas practicas de la traducción? {count}</p>
+      <button onClick={() => setCount(count + 1)}>Si</button>
+      <button onClick={() => setCount(count + 1)}>No</button> 
     </div>
   );
 }
